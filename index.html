@@ -1,0 +1,84 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi página web - Diseño Web</title>
+    <meta name="description" content="Página web sobre tecnología e innovación.">
+    <meta name="keywords" content="tecnología, innovación, diseño web">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <header id="inicio">
+        <h1>Mi página web</h1>
+        <p>Tecnología e innovación</p>
+    </header>
+
+    <nav>
+        <a href="#inicio">Inicio</a>
+        <a href="#servicios">Servicios</a>
+        <a href="#multimedia">Multimedia</a>
+        <a href="#contacto">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="servicios">
+            <h2>Mis servicios</h2>
+
+            <div class="caja">
+                <h3>Diseño web</h3>
+                <p>Creación de páginas con HTML5 y CSS3.</p>
+            </div>
+
+            <div class="caja">
+                <h3>Tecnología</h3>
+                <p>Soluciones tecnológicas para todos.</p>
+            </div>
+
+            <div class="limpiar"></div>
+        </section>
+
+        <section id="multimedia">
+            <h2>Contenido multimedia</h2>
+
+            <h3>Audio local</h3>
+            <audio controls>
+                <source src="multimedia/audio.mp3" type="audio/mpeg">
+                Tu navegador no admite audio.
+            </audio>
+
+            <h3>Video local</h3>
+            <video controls width="400">
+                <source src="multimedia/video.mp4" type="video/mp4">
+                Tu navegador no admite video.
+            </video>
+
+            <h3>Video externo</h3>
+            <iframe
+                src="https://www.youtube.com/embed/M7lc1UVf-VE"
+                title="Video de demostración"
+                width="400"
+                height="225"
+                loading="lazy"
+                allowfullscreen>
+            </iframe>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Gracias por visitar mi página web.</p>
+            <a class="boton" href="mailto:contacto@ejemplo.com">
+                Escríbeme
+            </a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Proyecto académico de Diseño Web</p>
+        <p>Ingeniería de Sistemas e Informática</p>
+    </footer>
+
+</body>
+</html>
